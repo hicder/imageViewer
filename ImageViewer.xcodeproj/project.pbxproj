@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C71D02B1762E8C70010E229 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D02A1762E8C70010E229 /* ImageViewController.m */; };
 		1C9743701762DD8800E61D18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C97436F1762DD8800E61D18 /* UIKit.framework */; };
 		1C9743721762DD8800E61D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9743711762DD8800E61D18 /* Foundation.framework */; };
 		1C9743741762DD8800E61D18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9743731762DD8800E61D18 /* CoreGraphics.framework */; };
@@ -18,11 +17,10 @@
 		1C9743841762DD8800E61D18 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9743831762DD8800E61D18 /* Default@2x.png */; };
 		1C9743861762DD8800E61D18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9743851762DD8800E61D18 /* Default-568h@2x.png */; };
 		1C9743891762DD8800E61D18 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9743871762DD8800E61D18 /* MainStoryboard.storyboard */; };
+		1C9DB78D1762F87800EC482B /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9DB78C1762F87800EC482B /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C71D0291762E8C70010E229 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = ../ImageViewController.h; sourceTree = "<group>"; };
-		1C71D02A1762E8C70010E229 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = ../ImageViewController.m; sourceTree = "<group>"; };
 		1C97436C1762DD8800E61D18 /* ImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C97436F1762DD8800E61D18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C9743711762DD8800E61D18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +35,8 @@
 		1C9743831762DD8800E61D18 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1C9743851762DD8800E61D18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1C9743881762DD8800E61D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1C9DB78B1762F87800EC482B /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		1C9DB78C1762F87800EC482B /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 		1C9743751762DD8800E61D18 /* ImageViewer */ = {
 			isa = PBXGroup;
 			children = (
-				1C71D0291762E8C70010E229 /* ImageViewController.h */,
-				1C71D02A1762E8C70010E229 /* ImageViewController.m */,
 				1C97437E1762DD8800E61D18 /* AppDelegate.h */,
+				1C9DB78B1762F87800EC482B /* ImageViewController.h */,
+				1C9DB78C1762F87800EC482B /* ImageViewController.m */,
 				1C97437F1762DD8800E61D18 /* AppDelegate.m */,
 				1C9743871762DD8800E61D18 /* MainStoryboard.storyboard */,
 				1C9743761762DD8800E61D18 /* Supporting Files */,
@@ -175,7 +175,7 @@
 			files = (
 				1C97437C1762DD8800E61D18 /* main.m in Sources */,
 				1C9743801762DD8800E61D18 /* AppDelegate.m in Sources */,
-				1C71D02B1762E8C70010E229 /* ImageViewController.m in Sources */,
+				1C9DB78D1762F87800EC482B /* ImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
